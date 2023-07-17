@@ -19,6 +19,7 @@ nav{
 }
 
 nav .logo{
+    padding: 8px;
     color: rgb(168, 168, 45);
     font-size: 25px;
     font-weight: 500px;
