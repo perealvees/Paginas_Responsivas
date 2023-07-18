@@ -7,12 +7,121 @@
 }
 
 body{
-    background-color: #1b2029;
-    color: rgb(133, 96, 202);
+    background-color: #1d092b;
+    color: rgb(191, 179, 214);
+    display: flex;
+    min-height: 80vh;
 }
 
-img {
-    height: 20px;
-    width: 20px;
-    justify-content: space-around;
+main {
+    display: flex;
+    width: 50hv;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 } 
+
+main h1 {
+    color: rgb(185, 170, 238);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+main .social-media{
+    display: flex;
+    align-content: center;
+}
+
+main .social-media{
+    text-decoration: none;
+}
+
+main .social-media img{
+    width: 28px;
+    margin-left: 3rem;
+}
+
+main .social-media a:first-child img{
+    margin-left: 0;
+}
+
+main .alternative{
+    margin-top: 1rem;
+}
+
+main .alternative span{
+    font-size: 1rem;
+    font-weight: 400px;
+    color: #cbcdd1;
+    position: relative;
+}
+
+main .alternative span::before, main .alternative span::after{
+    position: absolute;
+    content: '';
+    bottom: 50%;
+    right: 50px;
+    height: 1px;
+    width: 100px;
+    background-color: rgb(142, 120, 160);
+}
+
+main .alternative span::after{
+    left: 50px;
+}
+
+main form{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form label{
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span{
+    font-size: 1rem;
+    margin-top: 1rem
+}
+
+main form input{
+    background-color: #494e57;
+    width: 300px;
+    height: 40px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: #cbcdd1;
+    font-size: 1rem;
+    border: 1px solid rgb(91, 54, 133);
+    border-radius: 8px;
+    
+}
+
+main form input[type="submit"]{
+    cursor: pointer;
+    width: 50%;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(158, 110, 202);
+    color: rgb(14, 13, 13);
+    transition: all .2s ease-in-out;
+}
+
+main form input[type="submit"]:hover{
+    background-color: rgb(108, 34, 172);
+}
+
+section .imagem{
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+}
+
+section .imagem img{
+    width: 90%;
+}
