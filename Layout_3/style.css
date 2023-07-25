@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+body{
+    background-color: rgba(152, 235, 235, 0.788);
+    min-height: 100vh; /*para ocupar toda a altura do navegador*/
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 4%;
+}
+
+nav {
+    background-color: rgb(158, 131, 231);
+    display: flex;
+    justify-content: space-between; /*para a logo, menu, itens e o botão "começando", ficarem separados */
+    align-items: center; /*para alinhar o itens no centro da linha*/
+    height: 100px;
+}
