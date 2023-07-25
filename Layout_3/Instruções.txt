@@ -1,6 +1,6 @@
 HTML
 linkar css e fontawesome(para pegar icones)
-todo o conteudo vai ser a div CONTAINER
+todo o conteudo vai ser uma div "CONTAINER"
 
 No main, vai a parte do texto, icones e imagem.
 criar uma div pro texto, ou seja, dentro do main criar uma div pai
