@@ -52,6 +52,11 @@ li a{
     font-size: 17px;
 }
 
+li :hover{
+    background-color: rgb(173, 216, 216);
+    border-radius: 5px;
+}
+
 nav button{
     border: none;
     background-color: #6766ca;
@@ -81,7 +86,7 @@ h1{
 }
 
 b{
-    color: rgb(37, 102, 102);
+    color: rgb(117, 61, 124);
     font-size: 50px;
 }
 
@@ -91,8 +96,6 @@ p{
     margin-top: 20px;
     padding-bottom: 60px;
     padding-top: 20px;
-   
-    
 }
 
 input{
@@ -133,4 +136,6 @@ button:hover{
     color: rgb(58, 79, 112);
     cursor: pointer;
 }
+
+@media 
 
