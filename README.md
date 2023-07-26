@@ -1,1 +1,1 @@
-projetos que foram realizados para o entendimento da funcionalidade de sites responsivos
+Projetos realizados para entender como deixar um site responsivo
