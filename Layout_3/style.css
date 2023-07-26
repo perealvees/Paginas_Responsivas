@@ -14,3 +14,123 @@ body{
     margin: 0 auto;
     padding: 0 4%;
 }
+
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between; /*dar um espaço entre os elementos simetricamente*/
+    align-items: center; /*alinhar os elementos no centro da linha*/
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+
+nav .logo a{
+    color: rgb(74, 94, 209);
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+
+}
+
+li a{
+    text-decoration: none;
+    padding: 8px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: rgba(68, 75, 78, 0.719);
+    font-size: 17px;
+}
+
+nav button{
+    border: none;
+    background-color: #6766ca;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+nav .menu-icon{
+        cursor: pointer;
+        display: none;
+    }
+
+main{
+    display: flex;
+} 
+
+h1{
+    padding-top: 100px;
+    color: rgba(34, 40, 43, 0.836);
+    font-weight: 600;
+    font-size: 40px;
+}
+
+b{
+    color: rgb(37, 102, 102);
+    font-size: 50px;
+}
+
+p{
+    color: rgb(34, 40, 43);
+    font-weight: 400;
+    margin-top: 20px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+   
+    
+}
+
+input{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 290px;
+    border: none;    
+}
+
+::placeholder{
+    color: rgb(131, 128, 128);
+    font-size: 14px;
+}
+
+.txt-bx button{
+    color: rgb(207, 226, 243);
+    font-size: 14px;
+    background-color:rgb(63, 125, 128);
+    border-radius: none;
+    border:none;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.txt-bx button:hover{
+    background-color: rgb(37, 102, 102);
+}
+
+button:hover{
+    background-color: #7e7ed4;
+}
+.medias i{
+    padding: 5px;
+    margin:3px;
+    font-size: 20px;
+    justify-content: center;
+    color: rgb(58, 79, 112);
+    cursor: pointer;
+}
+
