@@ -1,11 +1,8 @@
 HTML
 linkar css e fontawesome(para pegar icones)
 todo o conteudo vai ser uma div "CONTAINER"
-
 No main, vai a parte do texto, icones e imagem.
 criar uma div pro texto, ou seja, dentro do main criar uma div pai
-
-
 
 
 CSS
@@ -13,7 +10,9 @@ resetar configurações e colocar box-sizing - ok
 importar fonte Robot - ok
 body: min-height:100vh
 para o menu desaparecer: 
-menu-icon - 
+menu-icon - colocar para aparecer 
+
 
 js
 definir valor pixel para aparecer o hamburger
+lembrar que a ul agora é a barra lateral, então tem que fazer o reposicioamento
