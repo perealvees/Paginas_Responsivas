@@ -9,6 +9,8 @@ body{
     background-color: #8eb7e6;
     min-height: 100vh;
 }
+
+
 .container{
     max-width: 1300px;
     margin: 0 auto;
@@ -182,6 +184,13 @@ button:hover{
         }
         .text-bx .input-bx{
             justify-content: center;
+        }
+
+        header{
+            position: fixed;
+            width: 100%;
+            z-index: 10;
+            top: 0;
         }
 
     }
