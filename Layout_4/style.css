@@ -83,7 +83,7 @@ button:hover{
 .txt{
     width: 40%;
     margin: 70px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 h1{
@@ -110,20 +110,39 @@ p{
 
 .menu-icon{
     display: none;
-   
 }
 
 @media (max-width:740px) {
         ul{
-            transform: translateX(-100%); /**/
+            transform: translateX(-100%);
+            font-size: 30px;
         }
 
         .fundo{
             flex-direction: column;
+            align-items:center;
         }    
 
-        .imagemsite{
-            
-        }    
+        .txt{
+            width: 100%;
+            text-align: center;
+        }
+
+        b{
+            font-size: 80px;
+    
+        }
+
+        h1{
+            font-size: 20px;
+        }
+
+        .imagemsite img{
+            width: 70vh;
+            height: 50vh;
+            border-radius: 50px;
+            margin-top: 40px;
+        }
+
        
     }
