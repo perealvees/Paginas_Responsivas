@@ -8,8 +8,7 @@
 /*Início - Parte do header*/
 nav{
     background-color: #e2b57bf5;
-    color: aliceblue;
-    height: 80px;
+    height: 70px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,8 +17,8 @@ nav{
 }
 
 nav img {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     margin: 10px;
     margin-top: 20px;
     cursor: pointer;
@@ -33,7 +32,7 @@ nav ul {
 
 
 a {
-    color: #9b5e25;
+    color: #e27414;
     display: flex;
     padding: 15px;
     text-decoration: none;
@@ -51,7 +50,7 @@ a:hover{
 
 .menu-btn{
     display: none;
-    color: #cf8017;
+    color: #d68215;
     padding: 8px;
     cursor: pointer;
 }
@@ -61,10 +60,11 @@ a:hover{
 #container {
     background-color: #ECD6CB;
     display: flex;
+    height: 90vh;
 }
 
 .form {
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 .form p {
@@ -76,15 +76,8 @@ a:hover{
 .form h1{
     font-size: 3em;
     margin-left: 25px;
-    color: #ee7913;
+    color: #ff6a07;
 }
-
-
-.ladoesquerdo {
-    width: 30%;
-    height: 30%;
-}
-
 
 .ladodireito img{
     height: 500px;
@@ -101,10 +94,11 @@ footer{
     background-color: rgb(223, 197, 111);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .container{
         margin: auto;
         align-items: center;
+        flex-direction: column;
     }
 
     .menu-btn {
@@ -112,7 +106,7 @@ footer{
     }
 
    .foto img {
-        height: 250px;
+        display: none;
     }
 
     nav ul {
@@ -120,6 +114,23 @@ footer{
         display: block;
         left: -50%;
     }
+
+    .form{
+        height: 100vh;
+    }    
+
+    .form h1{
+        text-align: center;
+    }
+    .form p {
+        text-align: center;
+        padding-top: 10px ;
+        margin: 50px;
+    }
+
+
+
+    
 }
     
    
