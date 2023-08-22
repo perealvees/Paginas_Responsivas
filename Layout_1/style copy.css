@@ -52,6 +52,54 @@ li {
     padding: 10px;
 }
 
-.menu-btn{
+.menu-btn i{
     display: none;
+    color: rgb(58, 68, 163);
+    padding: 8px;
+    cursor: pointer;
+}
+
+/*   TELAS MIDIAS SCREENS
+320px — 480px: dispositivos móveis
+481px — 768px: iPads, tablets
+769px — 1024px: telas pequenas, laptops
+1025px — 1200px: desktops, telas grandes
+1201px e acima —  telas muito grandes, TVs
+*/
+
+@media (max-width: 500px) {
+    nav .menu-btn i{
+        display: block;
+    }
+
+
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: rgba(58, 69, 163, 0.904);;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    
+    nav ul.open{
+        left: 0;
+    }
+    nav ul li{
+        width: 100%;
+        margin: 50px 0;
+    }
+    nav ul li a {
+        font-size: 23px;
+        color: #ffffff;
+    }
+    
+    nav ul li a:hover{
+        background: rgba(55, 31, 163, 0.753);
+        color: #ffffff;
+
+    } 
 }
