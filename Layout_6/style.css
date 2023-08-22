@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(92, 17, 92);
+}
+
+header{
+    background-color: #F0DFC8;
+}
+
+.logo img{
+    width: 100px;
+    height: 60px;
+}
+
+.menu{
+    background-color: red;
+}
+
+ul li {
+    color: black;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
