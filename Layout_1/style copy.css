@@ -28,7 +28,7 @@ nav .logo {
 }
 
 
-nav ul{
+nav ul {
     flex-wrap: wrap;
     display: flex;
     list-style: none;
