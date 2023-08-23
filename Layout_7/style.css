@@ -38,6 +38,7 @@ a {
     text-decoration: none;
     text-align: center;
     font-weight: 650;
+    font-size: 1.2em;
 }
 
 
@@ -77,14 +78,15 @@ a:hover{
     font-size: 3em;
     margin-left: 25px;
     color: #ff6a07;
+   
 }
 
 .ladodireito img{
-    height: 500px;
+    height: 460px;
     margin-left: 90px;
     border-radius: 80%;
     justify-content: space-between;
-    margin-top: 25px;
+    margin-top: 80px;
 }
 
 
@@ -92,45 +94,64 @@ footer{
     text-align: center;
     font-weight: bold;
     background-color: rgb(223, 197, 111);
+    height: 25px;
+    align-items: center;
 }
 
-@media (max-width: 500px) {
-    .container{
-        margin: auto;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .menu-btn {
+@media (max-width: 768px) {
+    /*Aparecer o "hamburger*/
+    .menu-btn { 
         display: block;
     }
 
+    /*Menu cabeçalho*/
+    nav ul{
+        position: fixed;
+        top: 70px;
+        left: -40%;
+        background-color: #c98940;
+        height: 89vh;
+        width: 40%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    nav ul.open{
+        left: 0;
+    }
+    nav ul li{
+       
+        
+    }
+    nav ul li a {
+        font-size: 20px;
+        color: #ffffff;
+    }
+    
+    nav ul li a:hover{
+        background: rgb(153, 100, 30);
+        color: #ffffff;
+    }
+
+
+    /*imagem do caminhão não aparecer*/
    .foto img {
         display: none;
     }
 
-    nav ul {
-        position: fixed;
-        display: block;
-        left: -50%;
-    }
-
-    .form{
-        height: 100vh;
-    }    
-
     .form h1{
         text-align: center;
     }
+
     .form p {
         text-align: center;
-        padding-top: 10px ;
-        margin: 50px;
+        padding-top: 20px ;
+        margin: 10px;
     }
 
 
 
-    
 }
     
    
